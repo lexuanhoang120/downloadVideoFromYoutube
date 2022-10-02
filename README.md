@@ -74,5 +74,9 @@ Navigate to the downloaded folder:
     $ cd downloadVideoFromYoutube
     $ pip install -r requirements.txt
     $ python main.py "your .csv file" "which folder do you want to save videos"
+    Example: python main.py 1.csv kennyN
 
 log.txt: status when download
+Referrence:
+https://www.youtube.com/watch?v=_82l5dvzZfQ&ab_channel=Codingforkids
+https://gist.github.com/pnhoang/642f3853100dea7fec13962ffd20e8bd#file-howto-download-youtube-videos-md
