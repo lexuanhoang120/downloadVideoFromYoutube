@@ -50,38 +50,28 @@ Click on videos selector
 
 Optional preview
 
-Scrape
+Scrape on sitemap 'your channel'
 
-Export data
+Export data to csv
 
 
-# Step 5a: Download the dl-youtube-videos binary for each platform
+# Step 5: Download and run
 
 
 Download the binary at 
 
-https://github.com/pnhoang/dl-youtube-videos/releases
+https://github.com/lexuanhoang120/downloadVideoFromYoutube
 
 Extract the binary
+
+prepare: python , pip , copy .csv file to downloadVideoFromYoutube
 
 Open terminal window
 
 Navigate to the downloaded folder: 
 
-    $ cd ~/Downloads/dl-youtube-videos
-    $ bin/dl-youtube-videos {csv_file}
+    $ cd downloadVideoFromYoutube
+    $ pip install -r requirements.txt
+    $ python main.py "your .csv file" "which folder do you want to save videos"
 
-Voillaaa, all the videos will be downloaded into the current folder in mp4 format. Enjoy the videos and remember to subscribe to the channel you downloaded, also to my channel to receive more update.
-
-# Step 5b: Optional
-
-Check if you have Node installed in your computer
-
-    ➜ node -v
-    v10.16.3
-    ➜ npx -v
-    6.9.0
-
-Use the script with npx:
-
-    ➜ npx dl-youtube-videos {csv_file}
+log.txt: status when download
